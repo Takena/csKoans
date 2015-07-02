@@ -39,13 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculatrice.cs" />
-    <Compile Include="IOperation.cs" />
-    <Compile Include="Multiplication.cs" />
+    <Compile Include="firstPart\Calculatrice.cs" />
+    <Compile Include="firstPart\IOperation.cs" />
+    <Compile Include="firstPart\Multiplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Somme.cs" />
-    <Compile Include="TypeReference.cs" />
-    <Compile Include="TypeValeur.cs" />
+    <Compile Include="firstPart\Somme.cs" />
+    <Compile Include="firstPart\TypeReference.cs" />
+    <Compile Include="firstPart\TypeValeur.cs" />
+    <Compile Include="secondPart\Nombres.cs" />
+    <Compile Include="thirdPart\BalanceNégativeDétectée.cs" />
+    <Compile Include="thirdPart\CompteBancaire.cs" />
+    <Compile Include="thirdPart\CompteCréé.cs" />
+    <Compile Include="thirdPart\DépotRéalisé.cs" />
+    <Compile Include="thirdPart\IEvenementMetier.cs" />
+    <Compile Include="thirdPart\Montant.cs" />
+    <Compile Include="thirdPart\RetraitNonAutorisé.cs" />
+    <Compile Include="thirdPart\RetraitRéalisé.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

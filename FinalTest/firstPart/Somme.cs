@@ -1,4 +1,4 @@
-namespace FinalTest
+namespace FinalTest.firstPart
 {
     public class Somme : IOperation
     {

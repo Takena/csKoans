@@ -1,4 +1,4 @@
-﻿namespace FinalTest
+﻿namespace FinalTest.firstPart
 {
     public interface IOperation
     {
